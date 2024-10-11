@@ -13,8 +13,14 @@ This document provides a step-by-step guide to how i installed and configured Fr
 
 ## Installation
 
-### 1. Initially i updated my system
+### 1. Initially updated my system
 
 ```bash
 sudo apt update && sudo apt upgrade -y
+```
+
+### 2. Install Required Dependencies
+
+```bash
+sudo apt install -y git python3-pip python3-dev python3-venv libffi-dev libssl-dev wkhtmltopdf redis-server mariadb-server
 ```

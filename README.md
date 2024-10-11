@@ -66,3 +66,9 @@ bench init --frappe-branch version-15 frappe-bench
 ```bash
 cd frappe-bench
 ```
+
+- I created a new site
+
+```bash
+bench new-site mysite.local
+```

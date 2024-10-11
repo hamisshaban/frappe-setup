@@ -44,3 +44,12 @@ sudo mysql_secure_installation
 ```bash
 mysql -u root -p
 ```
+
+### 4. Installed bench
+
+- This is to manage frappe application
+
+```bash
+sudo pip3 install frappe-bench
+```
+

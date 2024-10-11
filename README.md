@@ -24,3 +24,23 @@ sudo apt update && sudo apt upgrade -y
 ```bash
 sudo apt install -y git python3-pip python3-dev python3-venv libffi-dev libssl-dev wkhtmltopdf redis-server mariadb-server
 ```
+
+### 3. Setup my MariaDB
+
+- start mariadb server
+
+```bash
+sudo service mysql start
+```
+
+- Also secured the installation 
+
+```bash
+sudo mysql_secure_installation
+```
+
+- Created a database and a user using the following commands
+
+```bash
+mysql -u root -p
+```

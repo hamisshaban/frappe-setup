@@ -72,3 +72,12 @@ cd frappe-bench
 ```bash
 bench new-site mysite.local
 ```
+
+### 6. I also added ERPNext to the site
+
+```bash
+bench get-app --branch version-15 erpnext
+```
+```bash
+bench --site my-site install-app erpnext
+```

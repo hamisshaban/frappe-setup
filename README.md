@@ -7,7 +7,7 @@ This document provides a step-by-step guide to how i installed and configured Fr
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Accessing and Managing Modules](#accessing-and-managing-modules)
-- [Troubleshooting](#troubleshooting)
+- [Screenshot](#screenshot)
 
 ---
 
@@ -81,3 +81,14 @@ bench get-app --branch version-15 erpnext
 ```bash
 bench --site my-site install-app erpnext
 ```
+
+## Configuration and access instructions
+
+- Accessing the frappe site was done via the browser on the address `http://localhost:8000`
+
+- From the main dashboard i was able to access the installed modules i.e CRM, HR, etc.
+
+- Since each module has its own settings, i was able to access the settings for each of the installed modules.
+
+## Screenshot
+

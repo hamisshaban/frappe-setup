@@ -53,3 +53,16 @@ mysql -u root -p
 sudo pip3 install frappe-bench
 ```
 
+### 5. Creating frappe environment using bench
+
+```bash
+bench init --frappe-branch version-15 frappe-bench
+```
+
+- This created a frappe-bench directory in my home directory
+
+- I navigated into the directory
+
+```bash
+cd frappe-bench
+```
